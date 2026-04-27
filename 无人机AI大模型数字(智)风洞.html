@@ -1,0 +1,354 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+    <title>无人机AI数字智风洞 国内外团队调研</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            font-family: "Microsoft YaHei", sans-serif;
+            background-color: #f5f7fa;
+            padding: 30px 20px;
+        }
+
+        .page-title {
+            text-align: center;
+            font-size: 28px;
+            color: #1f2d4d;
+            margin-bottom: 10px;
+        }
+
+        .page-desc {
+            text-align: center;
+            color: #64748b;
+            font-size: 16px;
+            margin-bottom: 40px;
+        }
+
+        .container {
+            max-width: 1500px;
+            margin: 0 auto;
+            display: grid;
+            grid-template-columns: repeat(3, 1fr);
+            gap: 24px;
+        }
+
+        .card {
+            background: #ffffff;
+            border-radius: 14px;
+            box-shadow: 0 4px 12px rgba(0, 0, 0, 0.06);
+            overflow: hidden;
+            transition: transform 0.2s ease;
+            cursor: pointer; /* 手型光标 */
+            text-decoration: none; /* 去掉链接下划线 */
+            display: block;
+        }
+
+        .card:hover {
+            transform: translateY(-4px);
+        }
+
+        .card-img {
+            width: 100%;
+            height: 180px;
+            background-size: cover;
+            background-position: center;
+            background-repeat: no-repeat;
+        }
+
+        .card-body {
+            padding: 22px;
+        }
+
+        .card-title {
+            font-size: 17px;
+            font-weight: bold;
+            color: #1e293b;
+            margin-bottom: 16px;
+            line-height: 1.4;
+        }
+
+        .info-row {
+            font-size: 14px;
+            color: #334155;
+            margin-bottom: 10px;
+            line-height: 1.5;
+            display: flex;
+        }
+
+        .info-row strong {
+            min-width: 85px;
+            color: #2563eb;
+            font-weight: 500;
+        }
+
+        .tag-group {
+            margin-top: 14px;
+            display: flex;
+            flex-wrap: wrap;
+            gap: 6px;
+        }
+
+        .tag {
+            padding: 4px 9px;
+            border-radius: 5px;
+            font-size: 12px;
+            color: #fff;
+            background-color: #64748b;
+        }
+
+        .tag-domestic {
+            background-color: #16a34a;
+        }
+
+        .tag-foreign {
+            background-color: #f97316;
+        }
+
+        .tag-military {
+            background-color: #9333ea;
+        }
+
+        .section {
+            grid-column: 1 / -1;
+            font-size: 20px;
+            font-weight: bold;
+            color: #1e293b;
+            margin: 10px 0 18px;
+            padding-left: 6px;
+            border-left: 4px solid #2563eb;
+        }
+    </style>
+</head>
+
+<body>
+    <h1 class="page-title">无人机AI大模型数字(智)风洞 国内外团队调研</h1>
+
+    <div class="container">
+        <div class="section">国内团队</div>
+
+        <!-- 1 电子科大深思实验室 -->
+        <a class="card" href="http://ultraxlab.com/" target="_blank">
+            <div class="card-img" style="background-image:url('https://news.uestc.edu.cn/__local/B/68/91/DDE945028B126DBC1B7424ABE23_284386BA_683AC.jpg?e=.jpg')"></div>
+            <div class="card-body">
+                <div class="card-title">电子科技大学（深圳）深思实验室</div>
+                <div class="info-row"><strong>位置：</strong>广东·深圳</div>
+                <div class="info-row"><strong>负责人：</strong>杨军院士团队熊薇</div>
+                <div class="info-row"><strong>定位：</strong>全球首个低空风洞</div>
+                <div class="info-row"><strong>形态：</strong>实体风洞+AI数字孪生</div>
+                <div class="info-row"><strong>极端风场：</strong>高精度复现城市峡谷风场、热岛效应、风切变、下击暴流等城市典型风场及极端气象</div>
+                <div class="info-row"><strong>大模型：</strong>低空流场专属大模型</div>
+                <div class="info-row"><strong>风洞测试：</strong>引导风洞分为内外舱两部分，外舱直径18米、内舱直径10米，可支持翼展4米的航空器在垂直起降、巡航、悬停等姿态下的气动特性、飞控性能以及安全性能等研究。该风洞采用“风机矩阵”设计，由3组不同方向的风机矩阵和底部的1组绕流风机组成，风速最高可达60米每秒，响应时间缩短至2秒内，不仅能控温控湿，还能实现雨、雪、冰雹等城市低空环境全要素模拟，为飞行安全提供测试保障。自投用以来，引导风洞已为多家低空企业提供小微型飞行器研发测试服务。</div>
+                <div class="tag-group">
+                    <span class="tag tag-domestic">国内第一梯队</span>
+                </div>
+            </div>
+        </a>
+
+        <!-- 2 广东空天科技研究院 -->
+        <a class="card" href="https://www.gara.gd.cn/PublicPlatform/info.aspx?itemid=33" target="_blank">
+            <div class="card-img" style="background-image:url('https://www.gz.gov.cn/img/1/1462/1462589/10358583.jpg')"></div>
+            <div class="card-body">
+                <div class="card-title">广东空天科技研究院（广天院）</div>
+                <div class="info-row"><strong>位置：</strong>广东·广州</div>
+                <div class="info-row"><strong>负责人：</strong>尚祖铭，广东空天科技研究院高级工程师，低空飞行器风洞试验平台负责人</div>
+                <div class="info-row"><strong>定位：</strong>国内首个针对低空飞行器气动力特性研究和测试的4.5m量级风洞</div>
+                <div class="info-row"><strong>形态：</strong>大型实体风洞+标准化AI仿真</div>
+                <div class="info-row"><strong>极端风场：</strong>可精准模拟7级强风环境（风速13.9—17.1m/s），通过持续风、阵风等多样化测试场景，为飞行器安全性能提供硬核保障</div>
+                <div class="info-row"><strong>大模型：</strong>通用流体AI+行业模型</div>
+                <div class="info-row"><strong>风洞测试：</strong>试验场包括物理试验场和数字试验场，物理试验场由33平方公里空域、垂直起降场、滑行跑道、5G-A通感一体网络、测风雷达等组成，数字试验场包括协同设计平台、超算中心、数字孪生中心以及全空间无人体系管理服务平台。</div>
+                <div class="info-row"><strong>应用：</strong>深圳海关、小鹏汇天、威凯检测等10余家企业测试</div>
+                <div class="tag-group">
+                    <span class="tag tag-domestic">商用落地</span>
+                </div>
+            </div>
+        </a>
+
+        <!-- 3 武汉理工大学低空实验室 -->
+        <a class="card" href="http://scea.whut.edu.cn/xydt/202602/t20260228_1385244.shtml" target="_blank">
+            <div class="card-img" style="background-image:url('https://hbrbapp.hubeidaily.net/abc4669f3f7342c89d8a2681715b17b7.jpeg')"></div>
+            <div class="card-body">
+                <div class="card-title">武汉理工大学低空风环境实验室</div>
+                <div class="info-row"><strong>位置：</strong>湖北·武汉</div>
+                <div class="info-row"><strong>负责人：</strong>徐东升教授，低空科学与技术交叉学科中心主任、土建学院副院长</div>
+                <div class="info-row"><strong>定位：</strong>中南地区最大低空风墙</div>
+                <div class="info-row"><strong>形态：</strong>矩阵式风墙+轻量化数字风洞</div>
+                <div class="info-row"><strong>极端风场：</strong>中等（8级风、常规阵风湍流）</div>
+                <div class="info-row"><strong>大模型：</strong>AI协同风场控制轻量化模型</div>
+                <div class="info-row"><strong>风洞测试：</strong>小风洞试验段体积高达3米×3.5米×21米，可吹出35米/秒的风速，相当于12级台风；大风洞试验段更为庞大，达到8米×3米×21米，可吹出15米/秒的风速，能够满足翼展8米以下、高度3米以下的各类飞行器气动测试需求。</div>
+                <div class="info-row"><strong>应用：</strong>该实验室已接到订单</div>
+            </div>
+        </a>
+
+        <!-- 4 南京特检院矩阵风洞 -->
+        <a class="card" href="https://www.njtjy.org.cn/art/2026/3/20/art_5_5760.html" target="_blank">
+            <div class="card-img" style="background-image:url('https://pics2.baidu.com/feed/0b55b319ebc4b745110da1c0c04f67068882158a.jpeg')"></div>
+            <div class="card-body">
+                <div class="card-title">南京特检院矩阵风洞</div>
+                <div class="info-row"><strong>位置：</strong>江苏·南京</div>
+                <div class="info-row"><strong>负责人：</strong>胡静波，安全工程中心主任</div>
+                 <div class="info-row"><strong>定位：</strong>长三角首个室内中小型无人机抗风性能专业验证平台</div>
+                <div class="info-row"><strong>形态：</strong>中小型实体风洞+AI动态风场</div>
+                <div class="info-row"><strong>极端风场：</strong>该平台可精准模拟最高10级风环境（对应风速0-25m/s），湍流、阵风、风切变等真实多变大气环境</div>
+                <div class="info-row"><strong>大模型：</strong>流体AI模型</div>
+                <div class="info-row"><strong>风洞试验：</strong>采用独立风机+协同控制技术，大幅提升流场精度；同时具备复杂动态风场生成能力，不仅可模拟均匀定常流，还能精准复刻湍流、阵风、风切变等真实多变大气环境，在空间上可实现风速及风向梯度变化，在时间上可模拟阶跃风、正弦风、随机阵风等多种风况，全面覆盖无人机实际作业中的各类风环境场景，适用于全尺寸真机抗风性能、复杂风场适应性及气动特性全方位检测验证。</div>
+            </div>
+        </a>
+
+        <!-- 5 港科大-大疆联合实验室 -->
+        <a class="card" href="https://zhuanlan.zhihu.com/p/1960080339067213800" target="_blank">
+            <div class="card-img" style="background-image:url('https://picsum.photos/id/1057/800/400')"></div>
+            <div class="card-body">
+                <div class="card-title">港科大-大疆联合实验室</div>
+                <div class="info-row"><strong>位置：</strong>香港</div>
+                <div class="info-row"><strong>负责人：</strong>沈劭劼 教授团队</div>
+                <div class="info-row"><strong>形态：</strong>纯数字孪生+仿真平台</div>
+                <div class="info-row"><strong>极端风场：</strong>中等（城市复杂风场、局部湍流）</div>
+                <div class="info-row"><strong>大模型：</strong>无人机飞控专属大模型、风场 - 姿态耦合模型</div>
+                <div class="info-row"><strong>应用：</strong>与大疆长期深度科研合作</div>
+            </div>
+        </a>
+
+        <!-- 6 西北工业大学数字孪生风洞 -->
+        <a class="card" href="https://simforge.cn/news/67" target="_blank">
+            <div class="card-img" style="background-image:url('https://pics1.baidu.com/feed/3b292df5e0fe99255be4a5e253390cce8cb1713f.jpeg')"></div>
+            <div class="card-body">
+                <div class="card-title">西北工业大学—数字孪生风洞「风神NF3」</div>
+                <div class="info-row"><strong>位置：</strong>陕西·西安</div>
+                <div class="info-row"><strong>负责人：</strong>流体仿真与数字孪生课题组</div>
+                <div class="info-row"><strong>定位：</strong>亚洲最大低速翼型风洞的1:1数字复现，可替代传统试验</div>
+                <div class="info-row"><strong>形态：</strong>纯CFD数字仿真+数字孪生</div>
+                <div class="info-row"><strong>极端风场：</strong>中等（通用大气流场仿真）</div>
+                <div class="info-row"><strong>大模型：</strong>平台基于先进的国产超级计算基础设施，构建了与物理风洞1:1的孪生数字模型，实现了对复杂流动现象的精准预测与高效分析。「风神NF3」以西北工业大学亚洲最大低速翼型风洞NF-3为原型，采用了“几何孪生x物理孪生x数据孪生”的“三重孪生”技术，实现了NF-3风洞在数字世界的1:1还原。</div>
+                <div class="info-row"><strong>三重孪生：</strong>几何孪生：通过1:1几何建模，还原风洞整体形状，刻画尾迹耙等几何细节<br>物理孪生：高性能数值引擎支撑10亿级网格数值求解，对齐物理试验初边值条件<br>数据孪生：融合试验数据同化流场，采用符号回归模型构建智能湍流模型</div>
+            </div>
+        </a>
+
+        <!-- 7 中国空气动力研究与发展中心 -->
+        <a class="card" href="https://www.cardc.cn/" target="_blank">
+            <div class="card-img" style="background-image:url('https://www.cardc.cn/nnw/Uploadfiles/Picture/2024-1-2/2024121137398134.jpg')"></div>
+            <div class="card-body">
+                <div class="card-title">中国空气动力研究与发展中心</div>
+                <div class="info-row"><strong>位置：</strong>四川·成都</div>
+                <div class="info-row"><strong>负责人：</strong>低空湍流与飞行器环境团队</div>
+                <div class="info-row"><strong>定位：</strong>构建统一、高效、高精度的CFD软件平台，支撑航空航天飞行器的数值模拟与气动设计，减少对物理风洞的依赖。</div>
+                <div class="info-row"><strong>形态：</strong>气象风场仿真+数字流体模拟</div>
+                <div class="info-row"><strong>极端风场：</strong>可处理层流、湍流、激波/边界层干扰、化学反应等复杂流动现象。</div>
+                <div class="info-row"><strong>大模型：</strong>从低速到高超声速、从单物理场到多物理场耦合的模拟大模型</div>
+                <div class="info-row"><strong>风雷软件特点：</strong>高可扩展性‌：支持大规模并行计算，适配国产超算平台<br>多尺度建模‌：可处理层流、湍流、激波/边界层干扰、化学反应等复杂流动现象<br>工程实用性‌：已应用于多个重点型号研制，部分模块通过了实验数据验证</div>
+            </div>
+        </a>
+
+        <!-- 8 北京航空航天大学 -->
+        <a class="card" href="https://news.buaa.edu.cn/info/1006/58424.htm" target="_blank">
+            <div class="card-img" style="background-image:url('https://pics4.baidu.com/feed/eac4b74543a982265a738da646b6b20d4b90eb46.jpeg')"></div>
+            <div class="card-body">
+                <div class="card-title">北京航空航天大学</div>
+                <div class="info-row"><strong>位置：</strong>北京</div>
+                <div class="info-row"><strong>负责人：</strong>闫晓军‌，能源与动力学院院长‌‌</div>
+                <div class="info-row"><strong>定位：</strong>国内高校首个“新一代全数字化飞行器科教协同创新平台”</div>
+                <div class="info-row"><strong>形态：</strong>软件级数字仿真+环境模拟</div>
+                <div class="info-row"><strong>极端风场：</strong>试验段截面为‌4m×3m‌，为‌国内高校最大‌的气动声学风洞。噪声指标达国际领先水平。</div>
+                <div class="info-row"><strong>大模型：</strong>通用大模型场景微调</div>
+                <div class="info-row"><strong>应用：</strong>与中国商飞等企业深度合作，服务国家大飞机工程 ‌</div>
+            </div>
+        </a>
+
+        <div class="section">国外团队</div>
+
+        <!-- 9 瑞士EPFL自主系统实验室 -->
+        <a class="card" href="https://www.epfl.ch/labs/wire/facilities/wind-tunnel/" target="_blank">
+            <div class="card-img" style="background-image:url('https://www.epfl.ch/labs/wire/wp-content/uploads/2020/09/1-WiRE-Wind-Tunnel.jpg')"></div>
+            <div class="card-body">
+                <div class="card-title">瑞士EPFL自主系统实验室</div>
+                <div class="info-row"><strong>位置：</strong>瑞士·洛桑</div>
+                <div class="info-row"><strong>负责人：</strong>Autonomous Systems Lab</div>
+                <div class="info-row"><strong>形态：</strong>纯AI数字仿真+VR虚拟环境</div>
+                <div class="info-row"><strong>极端风场：</strong>中等（算法模拟强风、局部湍流）</div>
+                <div class="info-row"><strong>大模型：</strong>FlowNet流体基础大模型</div>
+                <div class="info-row"><strong>应用：</strong>飞手沉浸式VR算法训练</div>
+                <div class="tag-group">
+                    <span class="tag tag-foreign">海外科研标杆</span>
+                </div>
+            </div>
+        </a>
+
+        <!-- 10 德国TUM航空机器人团队 -->
+        <a class="card" href="https://www.epc.ed.tum.de/en/aer/wind-tunnels/wind-tunnel-a/" target="_blank">
+            <div class="card-img" style="background-image:url('https://www.epc.ed.tum.de/fileadmin/w00cgc/aer/AER_Gallery/pics/Ausstattung-A.jpg')"></div>
+            <div class="card-body">
+                <div class="card-title">德国TUM航空机器人团队</div>
+                <div class="info-row"><strong>位置：</strong>德国·慕尼黑</div>
+                <div class="info-row"><strong>负责人：</strong>Air Robotics Group</div>
+                <div class="info-row"><strong>形态：</strong>纯AI数字风洞+CFD降阶仿真</div>
+                <div class="info-row"><strong>极端风场：</strong>中等（城市峡谷、港口风场）</div>
+                <div class="info-row"><strong>大模型：</strong>DWT数字风洞AI基础模型</div>
+                <div class="info-row"><strong>应用：</strong>算法仿真为主，偏向科研场景</div>
+            </div>
+        </a>
+
+        <!-- 11 以色列Technion航空系 -->
+        <a class="card" href="https://aerospace.technion.ac.il/research/aerodynamics-laboratory/" target="_blank">
+            <div class="card-img" style="background-image:url('https://picsum.photos/id/1057/800/400')"></div>
+            <div class="card-body">
+                <div class="card-title">以色列Technion航空系</div>
+                <div class="info-row"><strong>位置：</strong>以色列·海法</div>
+                <div class="info-row"><strong>负责人：</strong>航空工程环境流体课题组</div>
+                <div class="info-row"><strong>形态：</strong>纯环境耦合数字仿真</div>
+                <div class="info-row"><strong>极端风场：</strong>中强（滨海强风、盐雾耦合）</div>
+                <div class="info-row"><strong>大模型：</strong>区域气象流体AI耦合模型</div>
+                <div class="info-row"><strong>应用：</strong>海事无人机专项训练</div>
+            </div>
+        </a>
+
+        <!-- 12 美国Shield AI -->
+        <a class="card" href="https://shield.ai/on-use-simulation-autonomy/" target="_blank">
+            <div class="card-img" style="background-image:url('https://shieldai2025.wpenginepowered.com/wp-content/uploads/2022/04/on-use-simulation-autonomy-blog-image-1024x683.jpeg')"></div>
+            <div class="card-body">
+                <div class="card-title">美国Shield AI</div>
+                <div class="info-row"><strong>位置：</strong>美国·加州</div>
+                <div class="info-row"><strong>负责人：</strong>军用无人系统AI研发中心</div>
+                <div class="info-row"><strong>形态：</strong>军用级仿真+故障注入模拟</div>
+                <div class="info-row"><strong>极端风场：</strong>极强（极端侧风、结构损伤耦合）</div>
+                <div class="info-row"><strong>大模型：</strong>军用自主决策大模型</div>
+                <div class="info-row"><strong>应用：</strong>军用编队极限应急训练</div>
+                <div class="tag-group">
+                    <span class="tag tag-military">军用级</span>
+                </div>
+            </div>
+        </a>
+
+        <!-- 13 SIMNET -->
+        <a class="card" href="https://www.simnet.aero/" target="_blank">
+            <div class="card-img" style="background-image:url('https://static.wixstatic.com/media/a248d8_996806c90f63425c88c42b7d4d4fec2e~mv2.png/v1/fill/w_865,h_482,al_c,q_90,enc_avif,quality_auto/simulation.png')"></div>
+            <div class="card-body">
+                <div class="card-title">美国SIMNET</div>
+                <div class="info-row"><strong>位置：</strong>美国·波多黎各</div>
+                <div class="info-row"><strong>形态：</strong>分布式交互仿真系统（虚拟仿真网络）</div>
+                <div class="info-row"><strong>极端风场：</strong>非定常气动力、大气紊流</div>
+                <div class="info-row"><strong>大模型：</strong>无人机仿真模型</div>
+                <div class="info-row"><strong>应用：</strong>SIMNET是一个云原生平台，深受无人机开发者、操作员、教育者和学生的信赖，旨在加速创新并塑造无人飞行的未来。它将三大核心功能整合成一个易用的网页界面：</div>
+            </div>
+        </a>
+
+        <!-- 14 symulacfd -->
+        <a class="card" href="https://symulacfd.com/en/aerodynamics/" target="_blank">
+            <div class="card-img" style="background-image:url('https://symulacfd.com/wp-content/webp-express/webp-images/uploads/2023/05/Perspective-LC.jpg.webp')"></div>
+            <div class="card-body">
+                <div class="card-title">法国symulacfd</div>
+                <div class="info-row"><strong>位置：</strong>法国</div>
+                <div class="info-row"><strong>形态：</strong>基于CFD的虚拟风洞/云仿真平台</div>
+                <div class="info-row"><strong>极端风场：</strong>高雷诺数流动、跨音速/超音速极端工况</div>
+                <div class="info-row"><strong>大模型：</strong>AI加速CFD求解器（千万级网格）</div>
+                <div class="info-row"><strong>应用：</strong>航空航天、汽车空气动力学、风电叶片、建筑风环境</div>
+            </div>
+        </a>
+    </div>
+</body>
+</html>
